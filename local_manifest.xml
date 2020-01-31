@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" revision="quartz-dev" />
+
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+
+</manifest>
