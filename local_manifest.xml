@@ -5,5 +5,11 @@
   <project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" revision="quartz-dev" />
 
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-
+  <project path="devices/xiaomi/whyred" name="orgesified/device_xiaomi_whyred" remote="github" />
+  <project path="vendor/xiaomi/whyred" name="orgesified/vendor_xiaomi_whyred" remote="github" />
+  <project path="kernel/xiaomi/whyred" name="orgesified/kernel_xiaomi_whyred" remote="github" revision="clang" />
+  <project path="hardware/qcom/audio" name="orgesified/pa_audio" remote="github" />
+  <project path="hardware/qcom/media" name="orgesified/pa_media" remote="github" />
+  <project path="hardware/qcom/display" name="orgesified/pa_display" remote="github" />
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" />
 </manifest>
