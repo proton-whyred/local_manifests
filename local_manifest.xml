@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
 
   <project path="device/xiaomi/whyred" name="aospa-whyred/android_device_xiaomi_whyred" remote="github" revision="ruby" />
