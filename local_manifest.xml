@@ -2,7 +2,7 @@
 <manifest>
 
   <remove-project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-  <remove-project name="platform/vendor/qcom-opensource/usb" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
   <remove-project name="device/qcom/sepolicy_vndr"/>
 
   <project path="device/qcom/sepolicy_vndr" name="aospa-whyred/android_device_qcom_sepolicy_vndr" remote="github" revision="ruby"/>
