@@ -15,4 +15,5 @@
   <project path="hardware/qcom/gps" name="aospa-whyred/android_hardware_qcom_gps" remote="github" revision="quartz-8998"/>
   <project path="vendor/MiuiCamera" name="aospa-whyred/vendor_MiuiCamera" remote="github" revision="ruby" />
   <project path="external/htop" name="ProtonAOSP/android_external_htop" remote="github" revision="rvc" />
+  <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="rvc" />
 </manifest>
