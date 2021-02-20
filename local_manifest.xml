@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-  <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
-  <remove-project name="device/qcom/sepolicy_vndr"/>
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <remove-project name="platform/vendor/qcom-opensource/usb" />
 
-  <project path="device/qcom/sepolicy_vndr" name="aospa-whyred/android_device_qcom_sepolicy_vndr" remote="github-ssh" revision="ruby"/>
-  <project path="device/xiaomi/whyred" name="aospa-whyred/android_device_xiaomi_whyred" remote="github-ssh" revision="ruby" />
-  <project path="vendor/xiaomi" name="aospa-whyred/android_vendor_xiaomi" remote="github-ssh" revision="ruby" />
-  <project path="kernel/xiaomi/whyred" name="aospa-whyred/android_kernel_xiaomi_whyred" remote="github-ssh" revision="ruby" />
-  <project path="hardware/qcom/audio" name="aospa-whyred/android_hardware_qcom_audio" remote="github-ssh" revision="ruby-pre-caf" />
-  <project path="hardware/qcom/media" name="aospa-whyred/android_hardware_qcom_media" remote="github-ssh" revision="ruby" />
-  <project path="hardware/qcom/display" name="aospa-whyred/android_hardware_qcom_display" remote="github-ssh" revision="ruby" />
-  <project path="hardware/qcom/gps" name="aospa-whyred/android_hardware_qcom_gps" remote="github-ssh" revision="ruby-SMxx50-sdm660"/>
-  <project path="vendor/MiuiCamera" name="aospa-whyred/vendor_MiuiCamera" remote="github-ssh" revision="ruby" />
-  <project path="external/htop" name="ProtonAOSP/android_external_htop" remote="github" revision="rvc" />
-  <project path="packages/apps/SimpleDeviceConfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="rvc" />
+  <project path="device/qcom/sepolicy_vndr" name="proton-whyred/android_device_qcom_sepolicy_vndr.git" remote="github-ssh" revision="rvc" />
+  <project path="device/xiaomi/whyred" name="proton-whyred/android_device_xiaomi_whyred.git" remote="github-ssh" revision="rvc" />
+  <project path="vendor/xiaomi" name="proton-whyred/android_vendor_xiaomi.git" remote="github-ssh" revision="rvc" />
+  <project path="kernel/xiaomi/whyred" name="proton-whyred/android_kernel_xiaomi_whyred.git" remote="github-ssh" revision="rvc" />
+  <project path="hardware/qcom/audio" name="proton-whyred/android_hardware_qcom_audio.git" remote="github-ssh" revision="rvc" />
+  <project path="hardware/qcom/media" name="proton-whyred/android_hardware_qcom_media.git" remote="github-ssh" revision="rvc" />
+  <project path="hardware/qcom/display" name="proton-whyred/android_hardware_qcom_display.git" remote="github-ssh" revision="rvc" />
+  <project path="hardware/qcom/gps" name="proton-whyred/android_hardware_qcom_gps.git" remote="github-ssh" revision="rvc" />
+  <project path="vendor/MiuiCamera" name="proton-whyred/android_vendor_MiuiCamera.git" remote="github-ssh" revision="rvc" />
+
 </manifest>
