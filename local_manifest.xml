@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <remove-project name="platform/vendor/qcom-opensource/usb" />
-
   <project path="device/qcom/sepolicy_vndr" name="proton-whyred/android_device_qcom_sepolicy_vndr.git" remote="github-ssh" revision="sc" />
-  <project path="device/xiaomi/whyred" name="proton-whyred/android_device_xiaomi_whyred.git" remote="github-ssh" revision="sc" />
+  <project path="device/xiaomi/whyred" name="proton-whyred/android_device_xiaomi_whyred.git" remote="github-ssh" revision="sc-whyred" />
+  <project path="device/xiaomi/sdm660-common" name="proton-whyred/android_device_xiaomi_whyred.git" remote="github-ssh" revision="sc" />
   <project path="vendor/xiaomi" name="proton-whyred/android_vendor_xiaomi.git" remote="github-ssh" revision="sc" />
   <project path="kernel/xiaomi/whyred" name="proton-whyred/android_kernel_xiaomi_whyred.git" remote="github-ssh" revision="sc" />
-  <project path="hardware/qcom/audio" name="proton-whyred/android_hardware_qcom_audio.git" remote="github-ssh" revision="sc" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="proton-whyred/android_hardware_qcom_audio.git" remote="github-ssh" revision="sc" />
   <project path="hardware/qcom/media" name="proton-whyred/android_hardware_qcom_media.git" remote="github-ssh" revision="sc" />
   <project path="hardware/qcom/display" name="proton-whyred/android_hardware_qcom_display.git" remote="github-ssh" revision="sc" />
-  <project path="hardware/qcom/gps" name="proton-whyred/android_hardware_qcom_gps.git" remote="github-ssh" revision="sc" />
-
 </manifest>
